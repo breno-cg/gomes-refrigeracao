@@ -257,3 +257,21 @@ td, th {
 	border: 1px solid #000000;
 	padding: 10px 20px;
 }
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-tecnico {
+		width: 100%;
+	}
+}
